@@ -21,6 +21,9 @@ const Header = () => {
         <Link to="/login" style={{ margin: '0 10px', color: 'white' }}>
           로그인
         </Link>
+        <Link to="/test" style={{ margin:'0 10px', color: 'green'}}>
+          테스트
+        </Link>
       </nav>
     </header>
   );
